@@ -1,6 +1,6 @@
 ---
 - name: Configure WebServers on prod2
-  hosts: prod2
+  hosts: Azure
   become: True
   tasks:
     - name: Install Nginx
